@@ -17,43 +17,48 @@
 	</div>
 	<div class="container">
 		<div class="header">
-			<a href="https://mixtape.moe/" class="logo">
-				<div class="logo-container">
-				  <div class="tape">
-				    <div class="label">
-				      <div class="labelbg">
-				        <div class="line1"></div><div class="line2"></div>
-				        <h4 class="label-logo">mixtape.moe</h4>
-				      </div>
-				      <div class="reels">
-				        <div class="leftreel">
-				        </div>
-				        <div class="window">
-				          <div class="leftwinreel">
-				          </div>
-				          <div class="rightwinreel">
-				          </div>
-				        </div>
-				        <div class="rightreel">
-				        </div>
-				      </div>
-				    </div>
-				    <div class="bevel">
-				      
-				    </div>
-				    <div class="lefthole">
-				      </div>
-				      <div class="leftinner">
-				      </div>
-				      <div class="rightinner">
-				      </div>
-				      <div class="righthole">
-				      </div>
-				  </div>
-				</div>
-			</a>
-			<h1 class="sitename">Mixtape.moe <span class="slogan">Drop Your Fire, fam</span></h1>
-			<h3 class="instruct">Share and upload any file up to 100MB</h3>
+			<div class="logo">
+				<a href="https://mixtape.moe/">
+					<div class="logo-container">
+					  <div class="tape">
+					    <div class="label">
+					      <div class="labelbg">
+					        <div class="line1"></div><div class="line2"></div>
+					        <h4 class="label-logo">mixtape.moe</h4>
+					      </div>
+					      <div class="reels">
+					        <div class="leftreel">
+					        </div>
+					        <div class="window">
+					          <div class="leftwinreel">
+					          </div>
+					          <div class="rightwinreel">
+					          </div>
+					        </div>
+					        <div class="rightreel">
+					        </div>
+					      </div>
+					    </div>
+					    <div class="bevel">
+					      
+					    </div>
+					    <div class="lefthole">
+					      </div>
+					      <div class="leftinner">
+					      </div>
+					      <div class="rightinner">
+					      </div>
+					      <div class="righthole">
+					      </div>
+					  </div>
+					</div>
+				</a>
+			</div>
+			<div class="header-text">
+				<h1 class="sitename">Mixtape.moe</h1>
+				<h2 class="slogan">Drop Your Fire, fam</h2>
+				<h3 class="instruct">Share and upload any file up to 100MB</h3>
+			</div>
 		</div>
 		<div class="jumbotron">
 			

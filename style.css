@@ -214,25 +214,30 @@ a.donate-btn:hover {
 }
 
 .header {
-	padding: 30px;
+	padding: 15px;
 	margin-top: 30px;
 }
 
 .header .logo {
 	float: left;
-	margin-right: 50px;
+	width: 320px;
+}
+
+.header .header-text {
+	float: left;
+	width: 640px;
 }
 
 .header .sitename {
 	color:#f8f8f8;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 54px;
+    font-size: 64px;
     font-weight: 700;
     line-height: 1;
-    margin: 24px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     cursor: default;
     text-rendering: optimizelegibility;
-    text-align: left;
+    text-align: center;
 }
 
 .header .slogan {
@@ -240,6 +245,7 @@ a.donate-btn:hover {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size:30px;
 	font-weight:700;
+	text-align: center;
 }
 
 .header .instruct {
@@ -251,12 +257,12 @@ a.donate-btn:hover {
 	margin:15px 0px 0px 0px;
 	cursor:default;
 	text-rendering:optimizelegibility;
-	text-align: left;
+	text-align: center;
 }
 
 .logo-container {
-	width: 250px;
-	height: 160px;
+	width: 312px;
+	height: 200px;
 	display: inline-block;
 	position: relative;
 }
@@ -395,7 +401,8 @@ a.donate-btn:hover {
 .jumbotron {
 	margin:0px 0;
 	text-align:center;
-	transition:width .5s,height .5s,margin .5s,padding .5s
+	transition:width .5s,height .5s,margin .5s,padding .5s;
+	clear: both;
 }
 
 .jumbotron h1 {
@@ -556,16 +563,21 @@ section.ded {
 	opacity:.5
 }
 
+@media only screen and (max-device-width:1000px),only screen and (max-width:1006px) {
+.header .logo {margin: 0 auto;width: 320px;float: none;}
+.header .header-text {width: 640px;float: none; margin: 0 auto; clear: both;}
+.stats {text-align: center;margin-right: 0%; }
+}
+
 @media only screen and (max-device-width:320px),only screen and (max-width:400px) {
 	.jumbotron{margin:0px 0px 20px 0px}
 	.jumbotron .lead{font-size:18px}
-	.jumbotron img{max-width:320px}
-	.jumbotron .btn,.alert,#upload-filelist{border-radius:0;border-width:1px 0;width:100%;margin-left:0;margin-right:0;padding-left:20px;padding-right:20px}
+	/*.jumbotron .btn,.alert,#upload-filelist{border-radius:0;border-width:1px 0;width:100%;margin-left:0;margin-right:0;padding-left:20px;padding-right:20px}*/
 	#upload-filelist{overflow:hidden}
 	#upload-filelist>li.file{margin-top:12px;margin-bottom:12px}
 	.file-progress{float:left;width:70%}
 	.file-size{float:left;max-width:30%;overflow:hidden}
 	.file-name,.file-url{width:100%;max-width:100%}
 	.file-url a{text-decoration:underline;margin-left:15px}
-	.file-url a:before{content:"http://"}
+	.file-url a:before{content:"https://"}
 }
