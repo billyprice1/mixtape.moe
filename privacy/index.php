@@ -59,7 +59,6 @@
 			</div>
 		</div>
 		<div class="content">
-			<br><br>
 			<p>This document was last updated on July 20, 2015 7:30pm EST</p>
 			<br><br>
 			<p>This Privacy Policy discusses the manner in which Mixtape.moe collects, uses, maintains and discloses any information from users of Mixtape.moe.</p>
