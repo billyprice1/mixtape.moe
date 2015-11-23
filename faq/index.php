@@ -73,7 +73,7 @@
 				<li>For removal of a file, contact us at <a href="mailto:abuse@mixtape.moe">abuse@mixtape.moe</a> for everything else, use the admin email.</li>		 
 				<li>Mixtape.moe opened up on July 9th, 2015. I hope you rike it.</li>
 			</ul>
-			<p><b>The FAQ may also be changed and updated at any time.<br>Have other questions? Ask me shit on <a href="https://twitter.com/drybones5/">Twitter</a>.</b></p>
+			<p><b>The FAQ may also be changed and updated at any time.<br>Have other questions? Ask us shit on <a href="https://twitter.com/mixtape_moe/">Twitter</a>.</b></p>
 		</div>
 		<div class="footer">
 			<?php include('../global/footer.html'); ?> 
