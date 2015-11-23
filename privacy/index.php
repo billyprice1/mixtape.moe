@@ -16,44 +16,49 @@
 	</div>
 	<div class="container">
 		<div class="header">
-			<a href="https://mixtape.moe/" class="logo">
-				<div class="logo-container">
-				  <div class="tape">
-				    <div class="label">
-				      <div class="labelbg">
-				        <div class="line1"></div><div class="line2"></div>
-				        <h4 class="label-logo">mixtape.moe</h4>
-				      </div>
-				      <div class="reels">
-				        <div class="leftreel">
-				        </div>
-				        <div class="window">
-				          <div class="leftwinreel">
-				          </div>
-				          <div class="rightwinreel">
-				          </div>
-				        </div>
-				        <div class="rightreel">
-				        </div>
-				      </div>
-				    </div>
-				    <div class="bevel">
-				      
-				    </div>
-				    <div class="lefthole">
-				      </div>
-				      <div class="leftinner">
-				      </div>
-				      <div class="rightinner">
-				      </div>
-				      <div class="righthole">
-				      </div>
-				  </div>
-				</div>
-			</a>
-			<h1 class="sitename">Privacy Policy</h1>
-			<h3 class="instruct">Our assurance of your information</h3>
+			<div class="logo">
+				<a href="https://mixtape.moe/">
+					<div class="logo-container">
+					  <div class="tape">
+					    <div class="label">
+					      <div class="labelbg">
+					        <div class="line1"></div><div class="line2"></div>
+					        <h4 class="label-logo">mixtape.moe</h4>
+					      </div>
+					      <div class="reels">
+					        <div class="leftreel">
+					        </div>
+					        <div class="window">
+					          <div class="leftwinreel">
+					          </div>
+					          <div class="rightwinreel">
+					          </div>
+					        </div>
+					        <div class="rightreel">
+					        </div>
+					      </div>
+					    </div>
+					    <div class="bevel">
+					      
+					    </div>
+					    <div class="lefthole">
+					      </div>
+					      <div class="leftinner">
+					      </div>
+					      <div class="rightinner">
+					      </div>
+					      <div class="righthole">
+					      </div>
+					  </div>
+					</div>
+				</a>
+			</div>
+			<div class="header-text">
+				<h1 class="sitename">Privacy Policy</h1>
+				<h3 class="instruct">Our assurance of your information</h3>
+			</div>
 		</div>
+		<div class="content">
 			<br><br>
 			<p>This document was last updated on July 20, 2015 7:30pm EST</p>
 			<br><br>
@@ -88,6 +93,7 @@
 
 			<h3>Contacting us</h3>
 			<p>If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us at <a href="mailto:admin@mixtape.moe">admin@mixtape.moe</a>.</p>
+		</div>
 		<div class="footer">
 			<?php include('../global/footer.html'); ?> 
 		</div>

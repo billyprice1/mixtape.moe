@@ -398,6 +398,11 @@ a.donate-btn:hover {
 	margin-right: 2%;
 }
 
+.content {
+	margin:0px 0;
+	clear: both;
+}
+
 .jumbotron {
 	margin:0px 0;
 	text-align:center;
