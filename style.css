@@ -319,10 +319,10 @@ a.donate-btn:hover {
 }
 
 .logo-container .labelbg .label-logo {
-	font-size: 158%;
-	font-family: 'moon-flower', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	text-align: center;
-	padding: 1.5% 0%;
+    font-size: 36px;
+    font-family: 'moon-flower', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+    padding: 3.5% 0%;
 	margin: 0;
 	color: #2F2F2F;
 }
@@ -342,7 +342,7 @@ a.donate-btn:hover {
 	border-radius: 9999px;
 	width: 21%;
 	height: 84%;
-	margin: 2%;
+	margin: 2% 0% 0% 2.7%;
 }
 .logo-container .rightreel {
 	float: right;
@@ -350,7 +350,7 @@ a.donate-btn:hover {
 	border-radius: 9999px;
 	width: 21%;
 	height: 84%;
-	margin: 2%;
+	margin: 2% 2.7% 0% 0%;
 }
 .logo-container .bevel {
 	margin: 0 auto;

@@ -24,7 +24,7 @@
 					    <div class="label">
 					      <div class="labelbg">
 					        <div class="line1"></div><div class="line2"></div>
-					        <h4 class="label-logo">404 ?!? <s>mixtape.moe</s> ?!? 404</h4>
+					        <h4 class="label-logo">?!? <s>mixtape.moe</s> ?!?</h4>
 					      </div>
 					      <div class="reels">
 					        <div class="leftreel">
@@ -55,10 +55,12 @@
 				</a>
 			</div>
 			<div class="header-text">
-				<h1 class="sitename" style="font-size: 100px">404 <span class="slogan" style="font-size: 60px">Fire not found!</span></h1>
-				<br><br>
-				<h3 class="instruct">O-oh no fam! File not found! Oh geez. What are we going to do now fam...<br>M-maybe we should, like, oh geez, I don't know, fam, go back to the <a href="https://mixtape.moe">homepage</a>?</h3>
+				<h1 class="sitename" style="font-size: 128px">404</h1>
+				<h2 class="slogan" style="font-size: 60px">Fire not found!</h2>
 			</div>
+		</div>
+		<div class="content">
+			<p class="instruct">O-oh no fam! File not found! Oh geez. What are we going to do now fam...<br>M-maybe we should, like, oh geez, I don't know, fam, go back to the <a href="https://mixtape.moe">homepage</a>?</p>
 		</div>
 		<div class="footer">
 			<?php include('/home/mixtape/mixtape.moe/public/global/footer.html'); ?> 
