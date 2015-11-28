@@ -67,6 +67,9 @@
 					<dt><strong>Contact</strong></dt>
 					<dd><a href="http://webchat.freenode.net/?channels=%23ShareX">#ShareX @ Freenode</a></dd>
 				</dl>
+				<dl>
+                  <dd><img src="https://my.mixtape.moe/czhpum.png"></dd>
+                </dl>
 			</section>
 
 			<section>
