@@ -60,10 +60,10 @@
 		</div>
 		<div class="content">
 			<section>
-				<h1>Mixtape ShareX Config</h1>
+				<h1>Mixtape via ShareX</h1>
 				<dl>
-					<dt><strong>Download</strong></dt>
-					<dd><a href="https://gitgud.io/snippets/14">https://gitgud.io/snippets/14</a></dd>
+					<dt><strong>Download ShareX (Win)</strong></dt>
+					<dd><a href="https://getsharex.com/">https://getsharex.com</a></dd>
 					<dt><strong>Contact</strong></dt>
 					<dd><a href="https://twitter.com/Drybones5">@Drybones5</a></dd>
 				</dl>
