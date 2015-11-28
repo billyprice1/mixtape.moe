@@ -65,7 +65,7 @@
 					<dt><strong>Download ShareX (Win)</strong></dt>
 					<dd><a href="https://getsharex.com/">https://getsharex.com</a></dd>
 					<dt><strong>Contact</strong></dt>
-					<dd><a href="https://twitter.com/Drybones5">@Drybones5</a></dd>
+					<dd><a href="http://webchat.freenode.net/?channels=%23ShareX">#ShareX @ Freenode</a></dd>
 				</dl>
 			</section>
 
