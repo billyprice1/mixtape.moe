@@ -442,6 +442,7 @@ a.donate-btn:hover {
     transition: color .25s;
     width: 98%;
     height: 135px;
+    margin-bottom: 15px;
 }
 
 .jumbotron .btn:hover,.jumbotron .btn:active,.jumbotron .btn:focus,.jumbotron .btn.drop {
@@ -577,7 +578,11 @@ section.ded {
 @media only screen and (max-device-width:320px),only screen and (max-width:400px) {
 	.jumbotron{margin:0px 0px 20px 0px}
 	.jumbotron .lead{font-size:18px}
-	/*.jumbotron .btn,.alert,#upload-filelist{border-radius:0;border-width:1px 0;width:100%;margin-left:0;margin-right:0;padding-left:20px;padding-right:20px}*/
+	.header .header-text {width: 100%;float: none; margin: 0 auto; clear: both;}
+	.header .sitename {font-size:52px;}
+	.header .slogan {font-size:30px;}
+	.header .instruct {font-size:18px;}
+	/*.jumbotron .btn,.alert,#upload-filelist{font-size:22px;border-radius:0;border-width:1px 0;width:100%;margin-left:0;margin-right:0;padding-left:20px;padding-right:20px;margin-bottom:20px;}*/
 	#upload-filelist{overflow:hidden}
 	#upload-filelist>li.file{margin-top:12px;margin-bottom:12px}
 	.file-progress{float:left;width:70%}
