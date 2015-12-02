@@ -1,5 +1,4 @@
 <?php
- header("Access-Control-Allow-Origin: *");
 // Check if we can compress our output; if we can, we'll do it
 if (ini_get('zlib.output_compression') !== 'Off'
 	&& isset($_SERVER["HTTP_ACCEPT_ENCODING"])
@@ -88,7 +87,7 @@ function upload_file ($file) {
 		return array(
 			'hash' => $file->get_sha1(),
 			'name' => $file->name,
-			'url'  => $result['filename'],
+			'url'  => POMF_URL . $result['filename'],
 			'size' => $file->size
 		);
 	}
