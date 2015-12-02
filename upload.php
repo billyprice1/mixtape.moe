@@ -1,4 +1,5 @@
 <?php
+ header("Access-Control-Allow-Origin: *");
 // Check if we can compress our output; if we can, we'll do it
 if (ini_get('zlib.output_compression') !== 'Off'
 	&& isset($_SERVER["HTTP_ACCEPT_ENCODING"])
