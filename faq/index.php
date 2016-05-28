@@ -55,25 +55,23 @@
 			</div>
 			<div class="header-text">
 				<h1 class="sitename">F.A.Q</h1>
-				<h3 class="instruct">What you need to know</h3>
+				<h3 class="instruct">What you may want to know</h3>
 			</div>
 		</div>
 		<div class="content">
 			<ul>
-				<li>Mixtape.moe does not support older versions of Internet Explorer, Firefox, Chrome, Opera and Safari.</li>
-				<li>Max file size is 100MB, for now at least. Max file uploads at once is 50. The combined total must <= 100MB.</li>
-				<li>The whole site uses full SSL/TLS HTTPS encryption with <a href="https://en.wikipedia.org/wiki/SPDY">SPDY</a>.</li>
-				<li>No Child porn. Ever. No viruses or malware uploads. Any file that meets these criteria will be removed immediately.</li>
-				<li>Just about all filetypes are allowed, (gif,jpg,cbr,rar,ass,srt,etc,etc) with the exception of .exe due to abuse usage.</li>
-				<li>Some logs are kept temporarily. Access logs are rotated daily and destroyed after 3 days.</li>
-				<li>mixtape.moe is hosted on a 1 Gigabit SSD server in New York, US and Cloudflare's CDN helps out.</li>
-				<li>I want to deliver the best free service I can, but services cost money. Consider donating.</li>
-				<li>Malware scans are consistently done. Malware will be quarantined if detected, we want to avoid my.mixtape.moe ending up on blacklists.</li>
+				<li>Max file size is 100MB. Max file uploads at once is 50. The combined total must <= 100MB.</li>
+				<li>The whole site uses full SSL/TLS HTTPS encryption with <a href="https://en.wikipedia.org/wiki/HTTP/2">HTTP/2</a>.</li>
+				<li>No Child porn or malware uploads are permitted. Any illegal file found will be removed immediately.</li>
+				<li>Any filetype is allowed, (webm,mp4,gif,jpg,cbr,rar,ass,srt,etc) with the exception of .exe due to abuse.</li>
+				<li>No access logs are kept. Error logs are deleted after 3 days.</li>
+				<li>We're hosted on a 1 Gigabit SSD server in the US and Cloudflare's CDN helps out.</li>
 				<li>If you believe your file was wrongly removed as a false virus detection, contact us at <a href="mailto:admin@mixtape.moe">admin@mixtape.moe</a></li>
-				<li>For removal of a file, contact us at <a href="mailto:abuse@mixtape.moe">abuse@mixtape.moe</a> for everything else, use the admin email.</li>		 
-				<li>Mixtape.moe opened up on July 9th, 2015. I hope you rike it.</li>
+				<li>For reporting an illegal file, DMCA, or Copyright requests, contact us at <a href="mailto:abuse@mixtape.moe">abuse@mixtape.moe</a>. We do not take requests lightly.</li>
+				<li>Mixtape.moe opened July 9th, 2015. I hope <a href="https://www.youtube.com/watch?v=m59UM1iFu-c">you rike it</a>.</li>
+				<li>Want more Statistics than just the frontpage file and storage size count? Mixtape serves over 120 Terabytes of files to almost 3,000,000 unique visitors with 35,000,000 requests per month. 65% of our traffic is webm video files, 12% gif, 10% are other images (jpg, png).</li>
 			</ul>
-			<p><b>The FAQ may also be changed and updated at any time.<br>Have other questions? Ask us shit on <a href="https://twitter.com/mixtape_moe/">Twitter</a>.</b></p>
+			<p><b>The FAQ may also be updated at any time.<br>Have other questions? Ask us on <a href="https://twitter.com/mixtape_moe/">Twitter</a>.</b></p>
 		</div>
 		<div class="footer">
 			<?php include('../global/footer.html'); ?> 
