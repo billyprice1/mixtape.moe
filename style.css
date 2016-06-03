@@ -11,7 +11,7 @@ Mixtape.moe custom design by Drybones
 *,:before,:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
 
 body {
-	background-color:#A93D2F;
+	background-color:#444;
 	/*background-image:url(grill.php),url(img/bg.png);*/
 	color: #222;
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -615,6 +615,8 @@ a.donate-btn:hover {
 ul.gray-list {
 	list-style: none;
 	max-width: 95%;
+	margin: 0 auto;
+    padding: 0px 0px 10px 0px;
 }
 
 ul.gray-list li {
