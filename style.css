@@ -585,6 +585,21 @@ a.donate-btn:hover {
 	max-width:100%
 }
 
+ul.stats-list {
+	list-style: none;
+}
+
+ul.stats-list li {
+	padding: 10px;
+    background: #eaeaea;
+    border-bottom: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+    border-left: 1px solid #d8d8d8;
+    font-size: 16px;
+    font-weight: 600;
+    color: #565656;
+}
+
 .front-page-casters {
 	clear: both;
 	width: 100%;

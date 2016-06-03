@@ -60,10 +60,10 @@
 				</div>
 			</div>
 			<div class="content">
-				<ul>
+				<ul class="stats-list">
 					<?php include('../global/stats-files.html'); ?>
 				</ul>
-				<p><b>The FAQ may also be updated at any time.<br>Have other questions? Ask us on <a href="https://twitter.com/mixtape_moe/">Twitter</a>.</b></p>
+				<p><b>This page is updated every minute.</b></p>
 			</div>
 			<div class="footer">
 				<?php include('../global/footer.html'); ?> 
