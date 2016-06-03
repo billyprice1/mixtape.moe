@@ -13,7 +13,7 @@ Mixtape.moe custom design by Drybones
 body {
 	background-color:#A93D2F;
 	/*background-image:url(grill.php),url(img/bg.png);*/
-	color:#f8f8f8;
+	color: #222;
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:14px;
 	height:100%;
@@ -60,7 +60,7 @@ a:hover,a:focus,a:active {
 .menu {
 	/*border-bottom: 1px solid #BFBFBF;*/
 	background: #f8f8f8;
-	border-bottom:1px solid #ABABAB;
+	border-bottom:1px solid #525252;
 }
 
 .alert {
@@ -78,42 +78,36 @@ a:hover,a:focus,a:active {
 
 .alert-error {
 	background-color:#F2DEDE;
-	border-top:#EED3D7;
 	border-bottom:#EED3D7;
 	color:#AA4342
 }
 
 .alert-info {
 	background-color:#E0E0E0;
-	border-top:1px solid #808080;
 	border-bottom:1px solid #808080;
 	color:#6C6C6C
 }
 
 .alert-blue {
 	background-color:#039BE5;
-	border-top:1px solid #015882;
 	border-bottom:1px solid #015882;
 	color:#f8f8f8
 }
 
 .alert-red {
 	background-color:#e86363;
-	border-top:1px solid #480B0B;
 	border-bottom:1px solid #480B0B;
 	color:#f8f8f8
 }
 
 .alert-green {
 	background-color:#77A74B;
-	border-top:1px solid #30441E;
 	border-bottom:1px solid #30441E;
 	color:#f8f8f8
 }
 
 .alert-yellow {
 	background-color: #ead222;
-	border-top: 1px solid #443E13;
     border-bottom: 1px solid #443E13;
     color: #333;
 }
@@ -229,12 +223,14 @@ a.donate-btn:hover {
 
 .header .logo {
 	float: left;
-	width: 320px;
+	width: 295px;
+    margin-left: 25px;
 }
 
 .header .header-text {
 	float: left;
 	width: 640px;
+	padding-top: 35px;
 }
 
 .header .sitename {
