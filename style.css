@@ -230,7 +230,7 @@ a.donate-btn:hover {
 .header .header-text {
 	float: left;
 	width: 640px;
-	padding-top: 35px;
+	padding-top: 15px;
 }
 
 .header .sitename {
@@ -590,7 +590,7 @@ ul.stats-list {
 	max-width: 95%;
 }
 
-ul.stats-list li {
+ul.gray-list li {
 	padding: 10px;
     background: #eaeaea;
     border-bottom: 1px solid #d8d8d8;
@@ -601,11 +601,11 @@ ul.stats-list li {
     color: #565656;
 }
 
-ul.stats-list li:first-child {
+ul.gray-list li:first-child {
     border-top: 1px solid #d8d8d8;
 }
 
-ul.stats-list li:hover {
+ul.gray-list li:hover {
     background: #dcdcdc;
     color: #444;
 }
