@@ -22,9 +22,9 @@ body {
 }
 
 .container {
-	margin:0 auto;
-	max-width:990px;
-	/*background:#f8f8f8;*/
+	width:990px;
+	background:#f8f8f8;
+	display: inline-block;
 }
 
 p {
@@ -163,7 +163,7 @@ a.donate-btn:hover {
 	list-style:none;
 	margin:0;
 	padding: 0px 5px 0px 5px;
-    text-align: center;
+    text-align: left;
 }
 
 .menu .wrapper nav>ul,nav a:hover {
@@ -174,9 +174,13 @@ a.donate-btn:hover {
 .menu .wrapper nav>ul>li {
 	display:inline-block;
 	margin:0;
-	padding: 5px 0px 5px 0px;
+	padding: 8px 8px 8px 8px;
     cursor: default;
     border-right: 1px solid #BFBFBF;
+}
+
+.menu .wrapper nav>ul>li:last-child {
+	border-right: none;
 }
 
 .footer ul>li:last-child {
@@ -214,8 +218,7 @@ a.donate-btn:hover {
 }
 
 .header {
-	padding: 15px;
-	margin-top: 30px;
+	padding: 45px 15px 15px 15px;
 }
 
 .header .logo {
@@ -229,7 +232,7 @@ a.donate-btn:hover {
 }
 
 .header .sitename {
-	color:#f8f8f8;
+	color:#A93D2F;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 64px;
     font-weight: 700;
@@ -241,7 +244,7 @@ a.donate-btn:hover {
 }
 
 .header .slogan {
-	color:#f8f8f8;
+	color:#A93D2F;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size:40px;
 	font-weight:700;
@@ -249,7 +252,7 @@ a.donate-btn:hover {
 }
 
 .header .instruct {
-	color:#f8f8f8;
+	color:#A93D2F;
 	font-family:inherit;
 	font-size:22px;
 	font-weight:400;
@@ -391,6 +394,32 @@ a.donate-btn:hover {
 	width: 4%;
 	height: 5.5%;
 	margin: -9% 0% 0% 68%;
+}
+
+.featured-btn {
+	position: relative;
+    right: -26px;
+    top: 14px;
+}
+
+.featured-btn a {
+    color: #A93D2F;
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 15px 0px 0px 0px;
+    text-rendering: optimizelegibility;
+    text-align: center;
+    border: 1px solid #A93D2F;
+    border-radius: 3px;
+    padding: 6px;
+    transition:all .2s;
+}
+
+.featured-btn a:hover {
+	background: #A93D2F;
+	color: #f8f8f8;
 }
 
 .stats {
@@ -552,6 +581,58 @@ a.donate-btn:hover {
 
 .pocky img {
 	max-width:100%
+}
+
+.front-page-casters {
+	clear: both;
+	width: 100%;
+	margin-top: 80px;
+}
+
+.front-page-casters .trending-caster-top {
+    color: #A93D2F;
+    font-family: helvetica;
+    margin: 15px 0px 15px 15px;
+    text-rendering: optimizelegibility;
+    text-align: left;
+    border: 1px solid #A93D2F;
+    padding: 7px;
+    width: 960px;
+    display: inline-block;
+}
+
+.front-page-casters .trending-caster-top img {
+    float: left;
+    width: 170px;
+    padding: 10px;
+}
+
+.front-page-casters .trending-caster-top .caster-title {
+	max-width: 730px;
+	color: #A93D2F;
+    font-family: helvetica;
+    text-rendering: optimizelegibility;
+    text-align: left;
+    font-size: 20px;
+    margin: 15px 0px 0px 0;
+}
+
+.front-page-casters .trending-caster-top .caster-meta-data {
+	color: #333;
+    font-family: helvetica;
+    text-rendering: optimizelegibility;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.front-page-casters .trending-caster-top .front-page-caster-description {
+	color: #333;
+    font-family: helvetica;
+    margin: 15px 0px 0px 0px;
+    text-rendering: optimizelegibility;
+    text-align: left;
+    font-size: 14px;
 }
 
 span.old {

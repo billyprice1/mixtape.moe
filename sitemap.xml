@@ -12,7 +12,7 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://mixtape.moe/mic.html</loc>
+  <loc>https://mixtape.moe/mic.php</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
@@ -23,6 +23,16 @@
 </url>
 <url>
   <loc>https://mixtape.moe/privacy/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mixtape.moe/tools/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mixtape.moe/stats/</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
 </url>
