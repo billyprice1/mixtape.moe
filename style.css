@@ -587,6 +587,7 @@ a.donate-btn:hover {
 
 ul.stats-list {
 	list-style: none;
+	max-width: 95%;
 }
 
 ul.stats-list li {
@@ -598,6 +599,15 @@ ul.stats-list li {
     font-size: 16px;
     font-weight: 600;
     color: #565656;
+}
+
+ul.stats-list li:first-child {
+    border-top: 1px solid #d8d8d8;
+}
+
+ul.stats-list li:hover {
+    background: #dcdcdc;
+    color: #444;
 }
 
 .front-page-casters {
