@@ -1,6 +1,6 @@
 <?php include('../global/head.html'); ?>
 
-<title>FAQ &middot; Mixtape.moe</title>
+<title>About &middot; Mixtape.moe</title>
 </head>
 <body>
 	<div class="top">
@@ -61,7 +61,7 @@
 			</div>
 			<div class="content">
 				<ul class="gray-list">
-					<li>Max file size is 100MB. Max file uploads at once is 50. The combined total must <= 100MB.</li>
+					<li>Max file size is 100MiB. Max file uploads at once is 50. The combined total must <= 100MiB.</li>
 					<li>The whole site uses full SSL/TLS HTTPS encryption with <a href="https://en.wikipedia.org/wiki/HTTP/2">HTTP/2</a>.</li>
 					<li>No Child porn or malware uploads are permitted. Any illegal file found will be removed immediately.</li>
 					<li>Any filetype is allowed, (webm,mp4,gif,jpg,cbr,rar,ass,srt,etc) with the exception of .exe due to abuse.</li>

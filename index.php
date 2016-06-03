@@ -63,7 +63,7 @@
 			</div>
 			<div class="jumbotron">
 				
-				<p class="stats"><?php include('global/stats.html'); ?></p>
+				<p class="stats"><a href="stats"><?php include('global/stats.html'); ?></a></p>
 				<noscript><p class="alert alert-error"><strong>Enable JavaScript</strong> you fucking autist neckbeard, it's not gonna hurt you</p></noscript>
 				<p id="no-file-api" class="alert alert-error"><strong>Your browser is not fire fam.</strong> Install the latest<a href="https://firefox.com/">Firefox</a> or <a href="https://chrome.google.com/">Google Botnet</a> and come back &lt;3</p>
 				<a href="javascript:;" id="upload-btn" class="btn">Select <span>or drop your </span>file(s)</a>

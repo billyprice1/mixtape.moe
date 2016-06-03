@@ -25,6 +25,7 @@ body {
 	width:990px;
 	background:#f8f8f8;
 	display: inline-block;
+	padding: 10px;
 }
 
 p {
@@ -218,7 +219,7 @@ a.donate-btn:hover {
 }
 
 .header {
-	padding: 45px 15px 15px 15px;
+	padding: 25px 15px 15px 15px;
 }
 
 .header .logo {
@@ -229,7 +230,7 @@ a.donate-btn:hover {
 
 .header .header-text {
 	float: left;
-	width: 640px;
+	width: 620px;
 	padding-top: 15px;
 }
 
@@ -248,15 +249,16 @@ a.donate-btn:hover {
 .header .slogan {
 	color:#A93D2F;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size:40px;
+	font-size:38px;
 	font-weight:700;
 	text-align: center;
+	margin: 20px;
 }
 
 .header .instruct {
 	color:#A93D2F;
 	font-family:inherit;
-	font-size:22px;
+	font-size:18px;
 	font-weight:400;
 	line-height:1.5;
 	margin:15px 0px 0px 0px;
@@ -427,6 +429,7 @@ a.donate-btn:hover {
 .stats {
 	text-align: right;
 	margin-right: 2%;
+	padding-top: 15px;
 }
 
 .content {
@@ -462,7 +465,7 @@ a.donate-btn:hover {
 
 .jumbotron .btn {
     background: none;
-    border: 4px dashed rgba(0,0,0,0.45);
+    border: 4px dashed rgb(103, 103, 103);
     border-radius: 3px;
     color: #631E14;
     cursor: pointer;
@@ -471,7 +474,7 @@ a.donate-btn:hover {
     padding: 52px 48px;
     transition: background .25s,width .5s,height .5s;
     transition: color .25s;
-    width: 98%;
+    width: 96%;
     height: 135px;
     margin-bottom: 15px;
 }
