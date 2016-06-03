@@ -78,36 +78,42 @@ a:hover,a:focus,a:active {
 
 .alert-error {
 	background-color:#F2DEDE;
+	border-top:#EED3D7;
 	border-bottom:#EED3D7;
 	color:#AA4342
 }
 
 .alert-info {
 	background-color:#E0E0E0;
+	border-top:1px solid #808080;
 	border-bottom:1px solid #808080;
 	color:#6C6C6C
 }
 
 .alert-blue {
 	background-color:#039BE5;
+	border-top:1px solid #015882;
 	border-bottom:1px solid #015882;
 	color:#f8f8f8
 }
 
 .alert-red {
-	background-color:#B73737;
+	background-color:#e86363;
+	border-top:1px solid #480B0B;
 	border-bottom:1px solid #480B0B;
 	color:#f8f8f8
 }
 
 .alert-green {
 	background-color:#77A74B;
+	border-top:1px solid #30441E;
 	border-bottom:1px solid #30441E;
 	color:#f8f8f8
 }
 
 .alert-yellow {
-	background-color: #BDAD38;
+	background-color: #ead222;
+	border-top: 1px solid #443E13;
     border-bottom: 1px solid #443E13;
     color: #333;
 }
