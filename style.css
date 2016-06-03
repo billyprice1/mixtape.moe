@@ -708,7 +708,7 @@ section.ded {
 
 @media only screen and (max-device-width:1000px),only screen and (max-width:1006px) {
 .header .logo {margin: 0 auto;width: 320px;float: none;margin-bottom: 25px;}
-.header .header-text {max-width: 620px;float: none; margin: 0 auto; clear: both;}
+.header .header-text {width: 100%;float: none; margin: 0 auto; clear: both;}
 .stats {text-align: center;margin-right: 0%; }
 }
 
