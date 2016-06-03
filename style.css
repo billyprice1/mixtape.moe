@@ -22,7 +22,7 @@ body {
 }
 
 .container {
-	width:990px;
+	width:100%;
 	background:#f8f8f8;
 	display: inline-block;
 	padding: 10px;
@@ -708,7 +708,7 @@ section.ded {
 
 @media only screen and (max-device-width:1000px),only screen and (max-width:1006px) {
 .header .logo {margin: 0 auto;width: 320px;float: none;margin-bottom: 25px;}
-.header .header-text {width: 640px;float: none; margin: 0 auto; clear: both;}
+.header .header-text {max-width: 640px;float: none; margin: 0 auto; clear: both;}
 .stats {text-align: center;margin-right: 0%; }
 }
 
