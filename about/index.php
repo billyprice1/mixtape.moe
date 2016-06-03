@@ -70,7 +70,6 @@
 					<li>If you believe your file was wrongly removed as a false virus detection, contact us at <a href="mailto:admin@mixtape.moe">admin@mixtape.moe</a></li>
 					<li>For reporting an illegal file, DMCA, or Copyright requests, contact us at <a href="mailto:abuse@mixtape.moe">abuse@mixtape.moe</a>. We do not take requests lightly.</li>
 					<li>Mixtape.moe opened July 9th, 2015. I hope <a href="https://www.youtube.com/watch?v=m59UM1iFu-c">you rike it</a>.</li>
-					<li>Want more Statistics than just the frontpage file and storage size count? Mixtape serves over 120 Terabytes of files to almost 3,000,000 unique visitors with 35,000,000 requests per month. 65% of our traffic is webm video files, 12% gif, 10% are other images (jpg, png).</li>
 				</ul>
 				<p><b>The FAQ may also be updated at any time.<br>Have other questions? Ask us on <a href="https://twitter.com/mixtape_moe/">Twitter</a>.</b></p>
 			</div>
