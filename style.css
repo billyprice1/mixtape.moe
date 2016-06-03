@@ -400,11 +400,11 @@ a.donate-btn:hover {
 	margin: -9% 0% 0% 68%;
 }
 
-.btn {
+.button {
 	margin: 5px 0px 5px 0px;
 }
 
-.btn a {
+.button a {
     color: #A93D2F;
     font-family: helvetica;
     font-size: 20px;
