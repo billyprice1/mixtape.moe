@@ -89,7 +89,7 @@
 					<h1>limf - python tool</h1>
 					<dl>
 						<div class="button">
-							<a class="button" href="https://github.com/lich/limf"><span class="fa fa-download"></span> Download</a>
+							<a href="https://github.com/lich/limf"><span class="fa fa-download"></span> Download</a>
 						</div>
 				            <dt><strong>Requirements</strong></dt>
 								<dd>Check repo Readme.md</dd>
