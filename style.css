@@ -235,7 +235,7 @@ a.donate-btn:hover {
 }
 
 .header .sitename {
-	color:#A93D2F;
+	color:#444;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 64px;
     font-weight: 700;
@@ -247,7 +247,7 @@ a.donate-btn:hover {
 }
 
 .header .slogan {
-	color:#A93D2F;
+	color:#444;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size:38px;
 	font-weight:700;
@@ -256,7 +256,7 @@ a.donate-btn:hover {
 }
 
 .header .instruct {
-	color:#A93D2F;
+	color:#444;
 	font-family:inherit;
 	font-size:18px;
 	font-weight:400;
@@ -400,13 +400,11 @@ a.donate-btn:hover {
 	margin: -9% 0% 0% 68%;
 }
 
-.featured-btn {
-	position: relative;
-    right: -26px;
-    top: 14px;
+.btn {
+	margin: 5px 0px 5px 0px;
 }
 
-.featured-btn a {
+.btn a {
     color: #A93D2F;
     font-family: helvetica;
     font-size: 20px;
@@ -421,7 +419,33 @@ a.donate-btn:hover {
     transition:all .2s;
 }
 
-.featured-btn a:hover {
+.button a:hover {
+	background: #A93D2F;
+	color: #f8f8f8;
+}
+
+.button .featured-btn {
+	position: relative;
+    right: -26px;
+    top: 14px;
+}
+
+.button .featured-btn a {
+    color: #A93D2F;
+    font-family: helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 15px 0px 0px 0px;
+    text-rendering: optimizelegibility;
+    text-align: center;
+    border: 1px solid #A93D2F;
+    border-radius: 3px;
+    padding: 6px;
+    transition:all .2s;
+}
+
+.button .featured-btn a:hover {
 	background: #A93D2F;
 	color: #f8f8f8;
 }
@@ -467,7 +491,7 @@ a.donate-btn:hover {
     background: none;
     border: 4px dashed rgb(103, 103, 103);
     border-radius: 3px;
-    color: #631E14;
+    color: #7d7d7d;
     cursor: pointer;
     display: inline-block;
     font-size: 24px;

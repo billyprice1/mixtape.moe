@@ -63,8 +63,8 @@
 				<section>
 					<h1>Mixtape via ShareX</h1>
 					<dl>
-						<div class="featured-btn">
-							<a class="featured-btn" href="https://getsharex.com/"><span class="fa fa-download"></span> Download</a>
+						<div class="button">
+							<a class="button" href="https://getsharex.com/"><span class="fa fa-download"></span> Download</a>
 						</div>
 						<dt><strong>Contact</strong></dt>
 						<dd><a href="http://webchat.freenode.net/?channels=%23ShareX">#ShareX @ Freenode</a></dd>
@@ -77,8 +77,8 @@
 				<!--section>
 					<h1>Mixtape Paste ShareX Config</h1>
 					<dl>
-						<div class="featured-btn">
-							<a class="featured-btn" href="https://gitgud.io/snippets/18"><span class="fa fa-download"></span> Download</a>
+						<div class="button">
+							<a class="button" href="https://gitgud.io/snippets/18"><span class="fa fa-download"></span> Download</a>
 						</div>
 						<dt><strong>Contact</strong></dt>
 						<dd><a href="https://twitter.com/Drybones5">@Drybones5</a></dd>
@@ -88,8 +88,8 @@
 				<section>
 					<h1>limf - python tool</h1>
 					<dl>
-						<div class="featured-btn">
-							<a class="featured-btn" href="https://github.com/lich/limf"><span class="fa fa-download"></span> Download</a>
+						<div class="button">
+							<a class="button" href="https://github.com/lich/limf"><span class="fa fa-download"></span> Download</a>
 						</div>
 				            <dt><strong>Requirements</strong></dt>
 								<dd>Check repo Readme.md</dd>
@@ -101,8 +101,8 @@
 				<section>
 					<h1>Simple mixtape uploader - bash script</h1>
 					<dl>
-						<div class="featured-btn">
-							<a class="featured-btn" href="https://gitgud.io/snippets/29"><span class="fa fa-download"></span> Download</a>
+						<div class="button">
+							<a class="button" href="https://gitgud.io/snippets/29"><span class="fa fa-download"></span> Download</a>
 						</div>
 			                <dt><strong>Requirements</strong></dt>
 			                    <dd>curl and <a href="http://kmkeen.com/jshon/">jshon</a></dd>
@@ -114,8 +114,8 @@
 				<section>
 			        <h1>mixx.sh - puush like bash upload script</h1>
 			            <dl>
-			            	<div class="featured-btn">
-								<a class="featured-btn" href="https://gitgud.io/snippets/34"><span class="fa fa-download"></span> Download</a>
+			            	<div class="button">
+								<a class="button" href="https://gitgud.io/snippets/34"><span class="fa fa-download"></span> Download</a>
 							</div>
 						<dt><strong>Requirements</strong></dt>
 						<dd><a href="https://github.com/naelstrof/maim">Maim</a></dd>
