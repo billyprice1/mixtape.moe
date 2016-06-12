@@ -64,9 +64,9 @@
 				<div style="width: 640px; margin:0 auto"><iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l1hUTL6sUqA?rel=0&amp;showinfo=0;start=23" frameborder="0" allowfullscreen=""></iframe>
 				</div>
 			</div>
-			<div class="footer">
-				<?php include('/home/mixtape/mixtape.moe/public/global/footer.html'); ?> 
-			</div>
+		</div>
+		<div class="footer">
+			<?php include('/home/mixtape/mixtape.moe/public/global/footer.html'); ?> 
 		</div>
 	</div>
 </body>

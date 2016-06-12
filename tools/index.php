@@ -127,9 +127,9 @@
 
 				<p>Made a script or tool for uploading to Mixtape? Let us know via <a href="mailto:admin@mixtape.moe">email</a> or <a href="https://twitter.com/mixtape_moe">Twitter</a> and we'll add it!</p>
 			</div>
-			<div class="footer">
-				<?php include('../global/footer.html'); ?> 
-			</div>
+		</div>
+		<div class="footer">
+			<?php include('../global/footer.html'); ?> 
 		</div>
 	</div>
 </body>

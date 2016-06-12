@@ -94,9 +94,9 @@
 				<h3>Contacting us</h3>
 				<p>If you have any questions about this Privacy Policy, the practices of this site, or your dealings with this site, please contact us at <a href="mailto:admin@mixtape.moe">admin@mixtape.moe</a>.</p>
 			</div>
-			<div class="footer">
-				<?php include('../global/footer.html'); ?> 
-			</div>
+		</div>
+		<div class="footer">
+			<?php include('../global/footer.html'); ?> 
 		</div>
 	</div>
 </body>

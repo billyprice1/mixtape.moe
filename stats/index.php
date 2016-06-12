@@ -64,11 +64,11 @@
 					<?php include('../global/stats-files.html'); ?>
 					<li>Mixtape serves over 130 Terabytes of files to over 3,000,000 unique visitors with over 35,000,000 requests per month. 65% of our traffic is webm video files, 12% gif, 10% are other images (jpg, png).</li>
 				</ul>
-				<p><b>This page is updated automatically every minute.</b></p>
+				<p style="text-align:center;">This page is updated automatically every minute.</p>
 			</div>
-			<div class="footer">
+		</div>
+		<div class="footer">
 				<?php include('../global/footer.html'); ?> 
-			</div>
 		</div>
 	</div>
 </body>

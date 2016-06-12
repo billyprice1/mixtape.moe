@@ -125,9 +125,9 @@
 
 				<ul id="upload-filelist"></ul>
 			</div>
-			<div class="footer">
-				<?php include('global/footer.html'); ?> 
-			</div>
+		</div>
+		<div class="footer">
+			<?php include('global/footer.html'); ?> 
 		</div>
 	</div>
 </body>
