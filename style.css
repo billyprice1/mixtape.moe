@@ -15,6 +15,10 @@ body {
 	margin:0;
 }
 
+h2, h3, h4 {
+	color: #333544;
+}
+
 .container {
 	width:100%;
 	background:#f8f8f8;
@@ -43,13 +47,13 @@ input[type=image],img {
 }
 
 a {
-	color:#2F2F2F;
+	color:#23272A;
 	text-decoration:none;
 	transition:color .15s
 }
 
 a:hover,a:focus,a:active {
-	color:#333;
+	color:#333544;
 }
 /*a:focus{
 	outline:thin dotted #333
@@ -86,7 +90,7 @@ a:hover,a:focus,a:active {
 }
 
 .alert p {
-	padding: 0px 5px 0px 5px;
+	padding: 0px 15px 0px 15px;
 	margin: 0px;
 }
 
@@ -208,47 +212,9 @@ a.donate-btn:hover {
 }
 
 .menu nav ul li a:hover {
-	color:#444;
+	color:#333544;
 	text-decoration: none;
 }
-
-.footer {
-	margin: 10px 0px;
-}
-
-.footer ul>li:last-child {
-	border-right: none;
-}
-
-.footer ul, .footer a {
-	color:rgba(255, 255, 255, 0.8);
-	list-style:none;
-	margin:0;
-	padding:0;
-	text-align:center
-}
-
-.footer a:hover {
-	color:#f8f8f8;
-}
-
-.footer ul>li {
-	display:inline-block;
-	margin:0;
-	padding:0px 5px 0px 5px;
-	cursor:default
-}
-/*
-.footer ul>li:after {
-	content:"-";
-	margin:0 8px;
-	opacity:.3
-}
-
-.footer ul>li:last-child:after {
-	content:"";
-	margin:0
-}*/
 
 .header {
 	padding: 25px 15px 15px 15px;
@@ -260,10 +226,16 @@ a.donate-btn:hover {
 	padding-left: 25px;
 }
 
-.header .header-text {
+.header .header-text-home {
 	float: left;
 	width: 60%;
 	padding-top: 30px;
+}
+.header .header-text {
+    float: left;
+    width: 100%;
+    padding-top: 30px;
+    min-height: 160px;
 }
 
 .header .sitename {
@@ -279,7 +251,7 @@ a.donate-btn:hover {
 }
 
 .header .slogan {
-	color:#2f2f2f;
+	color:#333544;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size:36px;
 	font-weight:700;
@@ -289,12 +261,11 @@ a.donate-btn:hover {
 }
 
 .header .instruct {
-	color:#2f2f2f;
+	color:#333544;
 	font-family:inherit;
 	font-size:18px;
 	font-weight:400;
-	line-height:0.5;
-	margin:15px 0px 0px 0px;
+	margin:5px 0px 0px 0px;
 	cursor:default;
 	text-rendering:optimizelegibility;
 	text-align: center;
@@ -306,15 +277,9 @@ a.donate-btn:hover {
 	display: inline-block;
 	position: relative;
 }
-/*.logo-container:after {
-	padding-top: 56.25%;
-	16:9 ratio
-	display: block;
-	content: '';
-}*/
 
 .logo-container .tape {
-	background: #2F2F2F;
+	background: #333544;
 	border-radius: 5px;
 	padding-top: 3%;
 	padding-left: 5%;
@@ -364,11 +329,11 @@ a.donate-btn:hover {
     text-align: center;
     padding: 3.5% 0%;
 	margin: 0;
-	color: #2F2F2F;
+	color: #333544;
 }
 
 .logo-container .reels {
-	background: #262626;
+	background: #333544;
 	border-radius: 9999px;
 	height: 39%;
 	width: 65%;
@@ -395,10 +360,10 @@ a.donate-btn:hover {
 .logo-container .bevel {
 	margin: 0 auto;
 	width: 86%;
-	background: #262626;
-	border-bottom: 39px solid #262626;
-	border-left: 11px solid #2F2F2F;
-	border-right: 11px solid #2F2F2F;
+	background: #282a35;
+	border-bottom: 39px solid #282a35;
+	border-left: 11px solid #333544;
+	border-right: 11px solid #333544;
 }
 .logo-container .lefthole {
 	background-color: #A93D2F;
@@ -431,6 +396,44 @@ a.donate-btn:hover {
 	width: 4%;
 	height: 5.5%;
 	margin: -9% 0% 0% 68%;
+}
+
+.footer {
+    margin: 20px 0px 0px 0px;
+    padding: 20px 0px;
+    width: 100%;
+    clear: both;
+}
+
+.footer ul>li:last-child {
+	border-right: none;
+}
+
+.footer ul, .footer a {
+	color:#23272A;
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-size: 12px;
+    font-weight: 700;
+}
+
+.footer a:hover {
+	color:#333544;
+}
+
+.footer ul>li {
+	display:inline-block;
+	margin:0;
+	padding:0px 5px 0px 5px;
+	cursor:default;
+}
+
+.footer .footer-bot,.footer .footer-bot a {
+	color: #23272A;
+	font-size: 12px;
+	font-weight: 400;
 }
 
 .button {
@@ -485,13 +488,17 @@ a.donate-btn:hover {
 
 .stats {
 	text-align: right;
-	margin-right: 2%;
+	margin-right: 30px;
 	padding-top: 15px;
 }
 
 .content {
-	padding:15px;
+	padding: 30px;
 	clear: both;
+}
+
+.empty:empty {
+   display: none;
 }
 
 .jumbotron {
@@ -561,12 +568,19 @@ a.donate-btn:hover {
 	text-align:left
 }
 
+.completed#upload-filelist {
+	background: rgb(245, 245, 245);
+}
 .error#upload-filelist {
-	color:#FFDDDC;
+    color: #a24235;
+	background: #ffe9e8 !important;
+    padding: 15px;
+    margin: 15px;
+    border: 4px double #a24235;
 }
 
 .error#upload-filelist .file-size {
-	color:#B94A48
+	color:#ab5a32
 }
 
 .error#upload-filelist .file-progress {
@@ -585,11 +599,11 @@ a.donate-btn:hover {
 }
 
 .file-name {
-	float:left;
-	overflow:hidden;
-	max-width:70%;
-	text-overflow:ellipsis;
-	white-space:nowrap
+    float: left;
+    /* overflow: hidden; */
+    max-width: 70%;
+    /* text-overflow: clip; */
+    /* white-space: nowrap; */
 }
 
 .file-size,.file-url {
@@ -602,12 +616,15 @@ a.donate-btn:hover {
 }
 
 .file-url a {
-	color: #2D0404;
-    font-size: 16px;
+    color: #f5f5f5;
+    font-size: 14px;
+    background: #333544;
+    padding: 14px;
+    line-height: 26px;
 }
 
 .file-url a:hover {
-	color:#D49330;
+	color:rgb(230, 183, 177);
 }
 
 .completed .file-progress,.completed .file-size {
@@ -620,7 +637,7 @@ a.donate-btn:hover {
 
 .progress-outer {
     background-color: rgba(255,255,255,0.8);
-    border: 1px solid #262626;
+    border: 1px solid #333;
     display: inline-block;
     font-size: 0;
     float: right;
@@ -632,7 +649,7 @@ a.donate-btn:hover {
 }
 
 .progress-inner {
-	background-color: #2F2F2F;
+	background-color: #333544;
 	height: 15px;
 	margin: 0px
 	width:0
@@ -649,7 +666,7 @@ a.donate-btn:hover {
 
 ul.gray-list {
 	list-style: none;
-	max-width: 95%;
+	max-width: 100%;
 	margin: 0 auto;
     padding: 0px 0px 10px 0px;
 }
@@ -680,10 +697,20 @@ ul.gray-list li:hover {
 	box-shadow: 0px 1px 30px -5px #000;
 	background: #333;
 	line-height: 0px;
+	text-align: center;
 }
 
-.video-view {
+.media-container .mediaview {
+
+}
+
+.media-container .video {
 	width: 100%;
+}
+
+.media-container .image {
+	max-width:100%;
+	display: inline-block;
 }
 
 .post-title {
@@ -778,16 +805,45 @@ section.ded {
 	opacity:.5
 }
 
+.report-form {
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.report-form textarea {
+    border: 1px solid #333544;
+    width:100%;
+	display: inline-block;
+    background: #23272A;
+    color: #f5f5f5;
+    font-size: 16px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.report-form .submit {
+	background: #333544;
+    border: none;
+    padding: 10px 15px;
+    color: #f5f5f5;
+    font-weight: 600;
+    width:100%;
+	display: inline-block;
+    display: inline-block;
+    font-family: monospace;
+}
+
 @media only screen and (max-device-width:880px),only screen and (max-width:880px) {
 .header .logo {margin: 0 auto;width: 320px;float: none;padding-left: 0px;}
-.header .header-text {width: 100%;float: none; margin: 0 auto; clear: both;}
+.header .header-text,.header .header-text-home {width: 100%;float: none; margin: 0 auto; clear: both;}
 .stats {text-align: center;margin-right: 0%; }
 }
 
 @media only screen and (max-device-width:320px),only screen and (max-width:400px) {
 	.jumbotron{margin:0px 0px 20px 0px}
 	.jumbotron .lead{font-size:18px}
-	.header .header-text {width: 100%;float: none; margin: 0 auto; clear: both;}
+	.header .header-text,.header .header-text-home {width: 100%;float: none; margin: 0 auto; clear: both;}
 	.header .sitename {font-size:52px;}
 	.header .slogan {font-size:30px;}
 	.header .instruct {font-size:18px;}

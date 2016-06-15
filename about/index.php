@@ -1,6 +1,6 @@
 <?php include('../global/head.html'); ?>
 
-<title>About &middot; Mixtape.moe</title>
+<title>About &middot; Mixtape</title>
 </head>
 <body>
 	<div class="top">
@@ -11,73 +11,32 @@
 		</div>
 		<div class="notifications">
 				<?php include('../global/notices.html'); ?>
-				<?php include('../global/alerts.html'); ?> 
 		</div>
 	</div>
 	<div class="wrapper">
 		<div class="container">
 			<div class="header">
-				<div class="logo">
-					<a href="https://mixtape.moe/">
-						<div class="logo-container">
-						  <div class="tape">
-						    <div class="label">
-						      <div class="labelbg">
-						        <div class="line1"></div><div class="line2"></div>
-						        <h4 class="label-logo">mixtape.moe</h4>
-						      </div>
-						      <div class="reels">
-						        <div class="leftreel">
-						        </div>
-						        <div class="window">
-						          <div class="leftwinreel">
-						          </div>
-						          <div class="rightwinreel">
-						          </div>
-						        </div>
-						        <div class="rightreel">
-						        </div>
-						      </div>
-						    </div>
-						    <div class="bevel">
-						      
-						    </div>
-						    <div class="lefthole">
-						      </div>
-						      <div class="leftinner">
-						      </div>
-						      <div class="rightinner">
-						      </div>
-						      <div class="righthole">
-						      </div>
-						  </div>
-						</div>
-					</a>
-				</div>
 				<div class="header-text">
-					<h1 class="sitename">F.A.Q</h1>
-					<h3 class="instruct">What you may want to know</h3>
+					<h1 class="sitename">About Mixtape</h1>
+					<h3 class="instruct">What you may want to know, but probably don't care</h3>
 				</div>
 			</div>
 			<div class="content">
+				<h2>FAQ</h2>
 				<ul class="gray-list">
-					<li>Max file size is 100MiB. Max file uploads at once is 50. The combined total must <= 100MiB.</li>
-					<li>No Child porn or malware uploads are permitted. Any illegal file under US law found will be removed immediately.</li>
-					<li>Any filetype is allowed, (webm,mp4,gif,jpg,cbr,rar,ass,srt,etc) with the exception of .exe due to abuse.</li>
-					<li>No access logs are kept. Error logs are deleted after 3 days.</li>
-					<li>If you believe your file was wrongly removed as a false virus detection, contact us at <a href="mailto:admin@mixtape.moe">admin@mixtape.moe</a></li>
-					<li>For reporting an illegal file, DMCA, or Copyright requests, contact us at <a href="mailto:abuse@mixtape.moe">abuse@mixtape.moe</a>. We do not take requests lightly.</li>
-					<li>Mixtape.moe opened July 9th, 2015. I hope <a href="https://www.youtube.com/watch?v=m59UM1iFu-c">you rike it</a>.</li>
+					<li>Max file size is 100MiB. Upload up to 50 at once. Combined sizes must <= 100MiB.</li>
+					<li>Any filetype is allowed, (webm, mp4, gif, jpg, cbr, rar, ass, srt,etc) with the exception of .exe due to abuse.</li>
+					<li>We do not keep access logs. Error logs are deleted after 3 days.</li>
+					<li>If you believe your file was removed as a false malware detection, contact us at <a href="mailto:admin@mixtape.moe">admin@mixtape.moe</a></li>
+					<li>For reporting an illegal file (Under US law: Child porn, Malware, etc) contact us immediately at <a href="mailto:abuse@mixtape.moe">abuse@mixtape.moe</a>.</li>
+					<li>Mixtape.moe opened on July 9th, 2015. <a href="https://www.youtube.com/watch?v=m59UM1iFu-c">Did you rike it?</a>.</li>
 				</ul>
-				<p style="text-align:center;">The FAQ may also be updated at any time. Have other questions? Ask us on <a href="https://twitter.com/mixtape_moe/">Twitter</a>.</p>
-			</div>
-			<div class="footer">
-				<?php include('../global/footer.html'); ?> 
+				<p style="text-align:center;">This FAQ may be updated at any time. Have other questions? Ask us on <a href="https://twitter.com/mixtape_moe/">Twitter - @Mixtape_moe</a>.</p>
 			</div>
 		</div>
-		<div class="footer">
-                	<?php include('../global/footer.html'); ?> 
-                </div>
+	</div>
+	<div class="footer">
+		<?php include('../global/footer.html'); ?> 
 	</div>
 </body>
 </html>

@@ -1,6 +1,6 @@
 <?php include('global/head.html'); ?>
 
-<title>Mixtape.moe &middot; Fire Hosting</title>
+<title>Mixtape &middot; Fire Hosting</title>
 <script async type="text/javascript" src="pomf.min.js"></script>
 </head>
 <body>
@@ -12,7 +12,6 @@
 		</div>
 		<div class="notifications">
 				<?php include('global/notices.html'); ?>
-				<?php include('global/alerts.html'); ?> 
 		</div>
 	</div>
 	<div class="wrapper">
@@ -55,7 +54,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="header-text">
+				<div class="header-text-home">
 					<h1 class="sitename white-color">Mixtape.moe</h1>
 					<h2 class="slogan">Drop Your Fire, Fam</h2>
 					<h3 class="instruct">Upload and share any file up to 100MB</h3>
@@ -72,9 +71,9 @@
 				<ul id="upload-filelist"></ul>
 			</div>
 		</div>
-		<div class="footer">
-			<?php include('global/footer.html'); ?> 
-		</div>
+	</div>
+	<div class="footer">
+		<?php include('global/footer.html'); ?> 
 	</div>
 </body>
 </html>

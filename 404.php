@@ -1,6 +1,6 @@
 <?php include('/home/mixtape/mixtape.moe/public/global/head.html'); ?> 
 
-<title>404 &middot; Mixtape.moe &middot; Fire Hosting</title>
+<title>404 &middot; Mixtape &middot; Fire Hosting</title>
 </head>
 <body>
 <body>
@@ -12,7 +12,6 @@
 		</div>
 		<div class="notifications">
 				<?php include('/home/mixtape/mixtape.moe/public/global/notices.html'); ?>
-				<?php include('/home/mixtape/mixtape.moe/public/global/alerts.html'); ?> 
 		</div>
 	</div>
 	<div class="wrapper">
@@ -56,18 +55,17 @@
 					</a>
 				</div>
 				<div class="header-text">
-					<h1 class="sitename" style="font-size: 128px">404</h1>
-					<h2 class="slogan" style="font-size: 56px; margin-top: 30px;">Fire not found!</h2>
+					<h1 class="sitename">404</h1>
+					<h2 class="slogan">Fire not found!</h2>
 				</div>
 			</div>
 			<div class="content">
-				<div style="width: 640px; margin:0 auto"><iframe width="640" height="360" src="https://www.youtube-nocookie.com/embed/l1hUTL6sUqA?rel=0&amp;showinfo=0;start=23" frameborder="0" allowfullscreen=""></iframe>
-				</div>
+			<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube-nocookie.com/embed/l1hUTL6sUqA?rel=0&amp;showinfo=0;start=23' frameborder='0' allowfullscreen></iframe></div>
 			</div>
 		</div>
-		<div class="footer">
-			<?php include('/home/mixtape/mixtape.moe/public/global/footer.html'); ?> 
-		</div>
+	</div>
+	<div class="footer">
+		<?php include('/home/mixtape/mixtape.moe/public/global/footer.html'); ?> 
 	</div>
 </body>
 </html>

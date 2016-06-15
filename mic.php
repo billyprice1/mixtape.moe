@@ -57,11 +57,10 @@
 		</div>
 		<div class="notifications">
 				<?php include('global/notices.html'); ?>
-				<?php include('global/alerts.html'); ?> 
 		</div>
 	</div>
 	<div class="wrapper">
-		<div class="container">
+		<div class="home-container">
 			<div class="header">
 				<div class="logo">
 					<a href="https://mixtape.moe/">
@@ -100,10 +99,10 @@
 						</div>
 					</a>
 				</div>
-				<div class="header-text">
-					<h1 class="sitename">Mixtape.moe</h1>
+				<div class="header-text-home">
+					<h1 class="sitename white-color">Mixtape.moe</h1>
 					<h2 class="slogan">Drop Your Fire, fam</h2>
-					<h3 class="instruct">Share and upload any file up to 100MB</h3>
+					<h3 class="instruct">Upload and share any file up to 100MB</h3>
 				</div>
 			</div>
 			<div class="jumbotron">
@@ -126,9 +125,9 @@
 				<ul id="upload-filelist"></ul>
 			</div>
 		</div>
-		<div class="footer">
-			<?php include('global/footer.html'); ?> 
-		</div>
+	</div>
+	<div class="footer">
+		<?php include('global/footer.html'); ?> 
 	</div>
 </body>
 </html>

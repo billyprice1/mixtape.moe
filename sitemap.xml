@@ -4,8 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 <url>
   <loc>https://mixtape.moe/</loc>
   <changefreq>daily</changefreq>
@@ -35,5 +33,15 @@
   <loc>https://mixtape.moe/stats/</loc>
   <changefreq>daily</changefreq>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mixtape.moe/tos/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://mixtape.moe/report/</loc>
+  <changefreq>daily</changefreq>
+  <priority>0.40</priority>
 </url>
 </urlset>
