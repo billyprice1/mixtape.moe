@@ -39,7 +39,7 @@
 				</ul>
 				
 				<h2 id="dmca">NOTICES OF CLAIMED COPYRIGHT INFRINGEMENT (OR OTHER TYPES OF INFRINGEMENT)</h2>
-				If you see anything on our site that you believe infringes your copyright rights, you may notify our Digital Millennium Copyright Act ("DMCA") agent by sending the following information BY MAIL to the address below:
+				If you see anything on our site that you believe infringes your copyright rights, you may notify our Digital Millennium Copyright Act ("DMCA") agent by sending the following information <strong>BY MAIL</strong> to the mailing address below:
 				<ul>
 					<li>Identification of the copyrighted work or works claimed to have been infringed. IMPORTANT: you must have a registered copyright for the work, or at least have filed with the <a href"http://www.copyright.gov/eco/">Copyright Office</a> an application to register a copyright for the work. <strong>DMCA notifications based on unregistered works are not valid.</strong></li>
 					<li>Identification of the material on our servers that is claimed to be infringing and that is to be removed, including the URL or other information to enable us to locate the material.</li>
@@ -48,12 +48,13 @@
 					<li>Your physical signature, or of someone authorized to act on your behalf.</li>
 					<li>Instructions on how we may contact you: email, mailing address and phone.</li>
 				</ul>
-				<p>Because all DMCA notifications must be based on a work for which the copyright is registered with the Copyright Office (or for which registration has been applied for), and because a high percentage of DMCA takedown notices are not valid, it will speed our investigation of your DMCA notice if you attach to it a copy of your copyright registration, or registration application, for the work. Please email us at the address below about your request after it is mailed.</p>
+				<p>Because all DMCA notifications must be based on a work for which the copyright is registered with the Copyright Office (or for which registration has been applied for), and because a high percentage of DMCA takedown notices are not valid, it will speed our investigation of your DMCA notice if you attach to it a copy of your copyright registration, or registration application, for the work. <strong>All DMCA requests MUST be mailed to us to the Mailing Address below. Send an email to notify us of your mailed request AFTER it has been mailed. All mailed in requests must contain all LEGAL DOCUMENTATION proving you have a registered copyright claim.</strong></p>
 
-				<p>Email: abuse [at] mixtape [dot] moe
-				Mailing Address:<br>
+				<p>Email to notify us at: abuse [at] mixtape [dot] moe<br><br>
+				<blockquote><strong>Mailing Address:</strong><br>
 				Sapphire<br>
-				P.O Box<br>
+				P.O Box 2112<br>
+				Minneola, FL 34755<br></blockquote>
 				</p>
 				<br>
 				<p>Use the same procedure for any claimed trademark violations or other infringements. If we receive a DMCA takedown demand for material you posted that we believe constitutes fair use, we will attempt to notify you if we have your contact info; otherwise we are under no obligation to notify you regarding the removal. We reserve the right to refuse to remove any material that in our view constitutes fair use. If we identify you as a "repeat infringer," we will block or remove your images and terminate any accounts you have with us. (If we notify you of a DMCA removal and you respond with a legitimate counter-notice, that won't count toward being a repeat infringer.) Keep in mind that we reserve the right to remove any content at any time whether or not it infringes or violates any of our policies.</p>
