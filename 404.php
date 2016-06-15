@@ -54,7 +54,7 @@
 						</div>
 					</a>
 				</div>
-				<div class="header-text">
+				<div class="header-text-home">
 					<h1 class="sitename">404</h1>
 					<h2 class="slogan">Fire not found!</h2>
 				</div>

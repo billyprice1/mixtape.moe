@@ -570,13 +570,13 @@ a.donate-btn:hover {
 
 .completed#upload-filelist {
 	background: rgb(245, 245, 245);
+	padding: 15px;
+    margin: 15px;
+    border: 4px double #a24235;
 }
 .error#upload-filelist {
     color: #a24235;
 	background: #ffe9e8 !important;
-    padding: 15px;
-    margin: 15px;
-    border: 4px double #a24235;
 }
 
 .error#upload-filelist .file-size {
