@@ -76,7 +76,7 @@ class Response {
 	}
 
 	private static function gyazo_success ($files) {
-		return POMF_URL . $files[0]['url'];
+		return $files[0]['url'];
 	}
 
 	private static function json_error ($code, $description) {
