@@ -24,10 +24,11 @@ if ($ext==='png' || $ext==='gif' || $ext==='jpg') {
   $viewer='video';
 }
 ?>
-	<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
-	<meta property="og:site_name" content="Mixtape.moe"/>
+
+<?php include('../global/head.html'); ?>
 
 <?php if ($viewer==='image') { ?>
+<link rel="image_src" href="<?php echo $url; ?>"/>
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@mixtape_moe">
 <meta name="twitter:creator" content="@drybones5">
@@ -36,28 +37,28 @@ if ($ext==='png' || $ext==='gif' || $ext==='jpg') {
 <meta name="twitter:image" content="<?php echo $url; ?>">
 <!-- fb -->
 <meta property="og:image" content="<?php echo $url; ?>"/>
-<meta property="og:secure_url" content="<?php echo $curl; ?>"/>
-<meta property="og:url" content="<?php echo $curl; ?>"/>
+<meta property="og:image:secure_url" content="<?php echo $url; ?>"/>
+<meta property="og:url" content="<?php echo $url; ?>"/>
 <!-- g+ -->
 <meta itemprop="name" content="Mixtape.moe">
 <meta itemprop="description" content="This track is mad niggerish">
 <meta itemprop="image" content="<?php echo $url; ?>">
 <?php } elseif ($viewer==='audio' || $viewer==='video') { ?>
 
-	<meta name="twitter:card" content="player">
-	<meta name="twitter:site" content="@mixtape_moe">
-	<meta name="twitter:title" content="Sample Player Card">
-	<meta name="twitter:description" content="This is a sample video. When you implement, make sure all links are secure.">
-	<meta name="twitter:image" content="<?php echo $url; ?>">
-	<meta name="twitter:player" content="https://yoursite.com/container.html">
-	<meta name="twitter:player:width" content="1280">
-	<meta name="twitter:player:height" content="720">
-	<meta name="twitter:player:stream" content="<?php echo $url; ?>">
-	<meta name="twitter:player:stream:content_type" content="video/webm">
+<meta name="twitter:card" content="player">
+<meta name="twitter:site" content="@mixtape_moe">
+<meta name="twitter:title" content="Sample Player Card">
+<meta name="twitter:description" content="This is a sample video. When you implement, make sure all links are secure.">
+<meta name="twitter:image" content="<?php echo $url; ?>">
+<meta name="twitter:player" content="https://yoursite.com/container.html">
+<meta name="twitter:player:width" content="1280">
+<meta name="twitter:player:height" content="720">
+<meta name="twitter:player:stream" content="<?php echo $url; ?>">
+<meta name="twitter:player:stream:content_type" content="video/webm">
 <?php } ?>
 
-<?php include('../global/head.html'); ?>
-
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta property="og:site_name" content="Mixtape.moe"/>
 <title>Mixtape &middot; Fire Hosting</title>
 </head>
 <body>

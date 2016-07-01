@@ -619,12 +619,12 @@ a.donate-btn:hover {
     color: #f5f5f5;
     font-size: 14px;
     background: #333544;
-    padding: 14px;
+    padding: 5px 10px 5px 10px;
     line-height: 26px;
 }
 
 .file-url a:hover {
-	color:rgb(230, 183, 177);
+	color:#dedede;
 }
 
 .completed .file-progress,.completed .file-size {
@@ -853,6 +853,6 @@ section.ded {
 	.file-progress{float:left;width:70%}
 	.file-size{float:left;max-width:30%;overflow:hidden}
 	.file-name,.file-url{width:100%;max-width:100%}
-	.file-url a{text-decoration:underline;margin-left:15px}
+	.file-url a{margin-left:10px}
 	.file-url a:before{content:"https://"}
 }
